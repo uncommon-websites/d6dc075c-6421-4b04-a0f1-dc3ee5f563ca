@@ -11,12 +11,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Put your mind to work."
+	subtitle="Create a digital you that speaks for you."
+	imageSrc="/generated/image-a-confident-professional-coach-dressed-i.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by leading experts and creators" 
+	logoUrls={[
+		'https://logo.clearbit.com/masterclass.com',
+		'https://logo.clearbit.com/substack.com',
+		'https://logo.clearbit.com/coursera.org',
+		'https://logo.clearbit.com/hubspot.com'
+	]}
+/>
 
 <Summary
 	generating
